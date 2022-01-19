@@ -1,0 +1,109 @@
+body{
+    margin:0px;
+    overflow: hidden;
+    background: #ffbb00;
+    
+}
+
+#box2{
+    background: #ffbb00;
+    background-image: url('/img/reproductor-de-video\ \(1\)\ \(1\).ico \(1).png');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: center;
+}
+
+#title2{
+    font-family: fantasy;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+   transform: translateX(-50%);
+}
+#scanner video{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+       background-color: white;
+       border: tomato solid ;
+       border-radius: 20px;
+}
+#msg2{
+    position: absolute;
+    top: 75%;
+    left: 38.6%;
+    font-family: bold;
+    font-size: 20px;
+    height: 50px;
+    border: tomato solid 5px;
+    border-radius: 8px;
+    
+
+}
+#startbtn{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 9999;
+    cursor: pointer;
+}
+#startbtn img{
+    width: 100px;
+}
+#stopbtn{
+    position: absolute;
+    top: 68%;
+    left: 53%;
+    height: 35px;
+    width: 100px;
+    background: tomato ;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    display:none;
+    font-family: sans-serif;
+
+}
+.seccion{
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.contenedor{
+
+    max-width: 120rem;
+    margin-left: auto;
+    margin-right: auto;
+    width:95%;
+
+}
+.contenedor-footer{
+    padding: 0.1rem 0;
+    text-align: center;
+}
+.site-footer{
+
+    background-color: tomato;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contenedor-footer p{
+    font-family: sans-serif;
+}
+
+.logo{
+    position: absolute;
+   transform: translateX(410%);
+   margin-top:0.5rem;
+   
+   
+}
